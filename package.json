@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "tw-patch install",
+    "prebuild": "tw-patch extract",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.0",
+    "nuxt": "^3.9.3",
+    "tailwindcss-patch": "^2.2.2",
+    "unplugin-tailwindcss-mangle": "^2.2.2",
+    "vue": "^3.4.14",
+    "vue-router": "^4.2.5"
+  }
+}
