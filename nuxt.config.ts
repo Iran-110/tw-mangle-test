@@ -8,6 +8,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-    ...process.env.NODE_ENV === 'production' ? [nuxtPlugin] : [],
+    nuxtPlugin,
   ],
 })

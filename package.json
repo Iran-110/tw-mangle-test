@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "prepare": "tw-patch install",
+    "predev": "tw-patch extract",
     "prebuild": "tw-patch extract",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
